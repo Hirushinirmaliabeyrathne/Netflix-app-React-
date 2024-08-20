@@ -1,0 +1,151 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    margin: 10px;
+    margin-right: 20px; /* Space between logo and nav items */
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin: 0 10px; /* Space between nav items */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.nav-list li:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-right .icons {
+    width: 20px;
+    cursor: pointer;
+}
+
+.children {
+    margin: 0 10px; /* Space around the Children text */
+}
+
+.navbar-profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.profile {
+    margin-right: 5px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: max-content;
+    background: #191919;
+    padding: 18px 22px;
+    border-radius: 3px;
+    text-decoration: underline;
+    z-index: 1;
+}
+
+.dropdown p {
+    font-size: 13px;
+    cursor: pointer;
+    margin: 0; /* Ensure there's no margin around dropdown items */
+    padding: 5px 0; /* Add some padding for better spacing */
+}
+
+.dropdown p:hover {
+    text-decoration: none; /* Remove underline on hover for better UX */
+}
+
+
+.tersmith {
+    position: relative;
+    width: 100%; /* Ensure it takes full width */
+}
+
+.tersmith-img {
+    width: 100%;
+    height: auto;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+
+.tearsmith-title {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding-left: 6%;
+    padding-bottom: 2%; /* Add padding bottom to create some space */
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add background for better text readability */
+}
+
+.series-img {
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+
+.tearsmith-title p {
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+
+.tearsmith-btn {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.icon {
+    margin-right: 5px;
+}
+.more-cards{
+    padding-left: 6%;
+}
